@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ece0d1;
 }
 
 code {
@@ -16,4 +17,35 @@ code {
   border: black solid 1px;
   text-decoration: none;
   color: black
+}
+
+.profile {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+
+  padding-top: 2ch;
+}
+.homeheadersub{
+  text-align: center;
+  font-size: 20px;
+  font-family: header;
+  color:gray;
+  padding-bottom: 0px;
+
+}
+
+
+.homeheader{
+  text-align: center;
+  padding-top: 2ch;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: ubu;
+}
+
+
+@font-face {
+  font-family: header;
+  src: url(Slabo27px-Regular.ttf);
 }
