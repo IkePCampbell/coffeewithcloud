@@ -18,11 +18,11 @@ export default function Blogs (props) {
             <div className="blogPostNotFound">
                 <p>yikes no blog here :/</p>
             </div> :
-            <div className="blogPost">
-                <h1>{blogs[id].name}</h1>
-                <h2>By: {blogs[id].author}</h2>
-                <h3>{blogs[id].date}</h3>
-                <p>{blogs[id].text}</p>
+                <div className="blogPost">
+                    <h1>{blogs[id].name}</h1>
+                    <h4>By: {blogs[id].author} &nbsp;&nbsp;&nbsp; {blogs[id].date}</h4>
+
+                    <p>{blogs[id].text}</p>
             </div>
             }
         </>
