@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9df945c663e1c3d97fe774eaeebdcd9d",
+    "revision": "2ffd199132b89de80b575576dd7a09c1",
     "url": "/coffeecloud/index.html"
   },
   {
-    "revision": "f5351e91b0c805de9bdc",
-    "url": "/coffeecloud/static/css/main.4bb6a40c.chunk.css"
+    "revision": "731d7c7335d555b2663c",
+    "url": "/coffeecloud/static/css/main.e479efe8.chunk.css"
   },
   {
     "revision": "41f8d25b0764df0fa128",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coffeecloud/static/js/2.7d06f8bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5351e91b0c805de9bdc",
-    "url": "/coffeecloud/static/js/main.a203126f.chunk.js"
+    "revision": "731d7c7335d555b2663c",
+    "url": "/coffeecloud/static/js/main.0e37cb9a.chunk.js"
   },
   {
     "revision": "4303e3439273cb8c004a",
