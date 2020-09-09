@@ -56,13 +56,12 @@ code {
 
 
 .blogPost {
-  padding-top: 5ch;
+  padding-top: 1.5ch;
   width: 55vw;
   position: relative;
   left: 25vw;
   word-wrap: break-word;
   font-size: 23px;
-
 
 }
 
@@ -76,8 +75,34 @@ code {
   font-size: 15px;
 }
 
+.nav {
+  width: 55vw;
+  position: relative;
+  left: 25vw;
+  word-wrap: break-word;
+  font-size: 23px;
+  background-color:#1a1004;
+  overflow: hidden;
+  font-family: header
+}
 
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  padding-right: 4.4ch; 
+  padding-left: 4.36ch;
+  text-decoration: none;
+  font-size: 23px;
+}
 
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #dbc1ac;
+  color: black;
+}
 @font-face {
   font-family: header;
   src: url(Slabo27px-Regular.ttf);

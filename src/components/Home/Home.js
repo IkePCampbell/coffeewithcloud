@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {blogs} from '../../data/blogs'
-
+import Header from "./header"
 
 const Blogs = ({blogs}) => {
     return blogs.reverse().map((b, index) => {
@@ -22,6 +22,7 @@ export default function Home () {
 
     return (
         <>
+            <Header />
             <header class="homeheader">
                 CoffeeCloud
             </header>
