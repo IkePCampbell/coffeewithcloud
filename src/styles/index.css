@@ -107,3 +107,11 @@ code {
   font-family: header;
   src: url(Slabo27px-Regular.ttf);
 }
+
+@media screen and (max-width: 480px) {
+  /* css for mobile */
+}
+
+@media screen and (min-width: 481px) {
+  /* css for bigger screens */
+}
