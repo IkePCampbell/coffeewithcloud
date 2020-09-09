@@ -30,7 +30,7 @@ code {
 }
 
 .profile {
-  border-radius: 50%;
+  border-radius: 50vw;
   width: 75px;
   height: 75px;  padding-top: 2ch;
 }
@@ -57,9 +57,9 @@ code {
 
 .blogPost {
   padding-top: 5ch;
-  width: 50%;
+  width: 55vw;
   position: relative;
-  left: 25%;
+  left: 25vw;
   word-wrap: break-word;
   font-size: 23px;
 

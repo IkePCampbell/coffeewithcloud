@@ -1,3 +1,5 @@
+import blog1 from '../data/blog1.md'
+
 export const blogs = [
 
     {
@@ -5,6 +7,6 @@ export const blogs = [
         date: "09-04-2020",
         author: "Isaac Campbell",
         teaser: "Origin Story",
-        text: ""
+        source: blog1
     }
 ]
