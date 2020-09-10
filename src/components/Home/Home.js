@@ -1,17 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import {blogs} from '../../data/blogs'
 import Header from "../Header/Header"
 import profilepic from '../../img/profilepic.png'
 
+
 const Blogs = ({blogs}) => {
-    return blogs.reverse().map((b, index) => {
+    return blogs.slice(0,4).reverse().map((b, index) => {
         return (
             <div key={b.id} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
                     <Link to={`/blogs/${index}`}>
                     <h3 style={{paddingBottom:'0px'}}>{b.name}</h3>
                     <h5>{b.date}</h5>
                     <p>{b.teaser}</p>
+                    <p style={{fontSize:'14px'}}>Tags: {b.tags}</p>
                     </Link>
                 </div>)
     })
@@ -34,7 +36,7 @@ export default function Home () {
                     </tr>
                 </tbody>
             </table>
-            
+            <p style={{width:'40%',left:"30%",margin:"0 auto"}}>Recent Posts: </p>
 
             <main>
                 <Blogs blogs={blogs} />

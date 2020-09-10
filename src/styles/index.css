@@ -53,6 +53,13 @@ a{
   margin: 0 auto;
 }
 
+.filterinput{
+  position:relative;
+  left: 1%;
+  padding-top:1%;
+  padding-bottom:0;
+}
+
 .homeheader{
   text-align: center;
   padding-top: 2ch;
@@ -80,15 +87,21 @@ a{
   font-size: 15px;
 }
 
-.nav {
-  width: 55vw;
+.blogSearch{
+  margin: 0;
   position: relative;
   left: 25vw;
+
+}
+
+.nav {
+  position: relative;
   word-wrap: break-word;
   font-size: 23px;
   background-color:#1a1004;
   overflow: hidden;
-  font-family: header
+  font-family: header;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -97,10 +110,9 @@ a{
   color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
-  padding-right: 4.4ch; 
-  padding-left: 4.36ch;
   text-decoration: none;
   font-size: 23px;
+  margin: 0;
 }
 
 /* Change the color of links on hover */

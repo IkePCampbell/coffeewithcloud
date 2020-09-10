@@ -8,7 +8,6 @@ const Header = () => {
             <Link to={`/blogs`}>Search for Blogs</Link>
             <Link to={`/contactme`}>Got Questions?</Link>
             <Link to={`/about`}>About Me</Link>
-            
         </div>
     )
 }
