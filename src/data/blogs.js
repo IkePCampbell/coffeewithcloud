@@ -1,4 +1,4 @@
-import blog1 from '../data/blog1.md'
+import blog1 from './blogs/blog1.md'
 
 export const blogs = [
     {

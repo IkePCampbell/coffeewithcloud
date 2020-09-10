@@ -7,7 +7,7 @@ import profilepic from '../../img/profilepic.png'
 const Blogs = ({blogs}) => {
     return blogs.reverse().map((b, index) => {
         return (
-            <div key={b.name} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
+            <div key={b.id} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
                     <Link to={`/blogs/${index}`}>
                     <h3 style={{paddingBottom:'0px'}}>{b.name}</h3>
                     <h5>{b.date}</h5>

@@ -1,6 +1,6 @@
-a{
-  text-decoration:none;
-  color: #38220f;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,6 +16,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a{
+  text-decoration:none;
+  color: #38220f;
 }
 
 .blogDemo {
@@ -34,18 +39,20 @@ code {
   width: 75px;
   height: 75px;  padding-top: 2ch;
 }
+
 .homeheadersub{
   text-align: center;
   font-size: 20px;
   font-family: header;
   color:gray;
   padding-bottom: 0px;
-
 }
 
 .aboutMe{
   color: 38220f;
+  margin: 0 auto;
 }
+
 .homeheader{
   text-align: center;
   padding-top: 2ch;
@@ -62,12 +69,10 @@ code {
   left: 25vw;
   word-wrap: break-word;
   font-size: 23px;
-
 }
 
 .blogPost h1 {
   color: #634832;
-  line-height:0px;
 }
 .blogPost h4 {
   position: relative;
@@ -103,6 +108,7 @@ code {
   background-color: #dbc1ac;
   color: black;
 }
+
 @font-face {
   font-family: header;
   src: url(Slabo27px-Regular.ttf);
