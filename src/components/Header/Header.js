@@ -5,9 +5,9 @@ const Header = () => {
     return (
         <div className = "nav">
             <Link to={`/`}>Home</Link>
-            <Link to={`/`}>Search for Blogs</Link>
-            <Link to={`/`}>Got Questions?</Link>
-            <Link to={`/`}>About Me</Link>
+            <Link to={`/blogs`}>Search for Blogs</Link>
+            <Link to={`/contactme`}>Got Questions?</Link>
+            <Link to={`/about`}>About Me</Link>
             
         </div>
     )
