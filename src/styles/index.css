@@ -53,9 +53,27 @@ a{
   margin: 0 auto;
 }
 
+.aboutMePage{
+  position: relative;
+  padding-top: 2%;
+  left: 8%;
+  width: 80%;
+  background-image: url('../img/AboutMePhoto.jpg');
+  background-size: 45% 100%;
+  background-repeat: no-repeat;
+  height:73ch;
+  overflow: hidden;
+
+}
+.container-content {
+  overflow: hidden;
+  position: relative;
+  margin-left: 50%;
+  color: #1a1004;
+}
 .filterinput{
   position:relative;
-  left: 1%;
+  left: .5%;
   padding-top:1%;
   padding-bottom:0;
 }
@@ -109,7 +127,7 @@ a{
   float: left;
   color: whitesmoke;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 2% 16px 2%;
   text-decoration: none;
   font-size: 23px;
   margin: 0;

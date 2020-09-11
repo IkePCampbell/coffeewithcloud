@@ -25,7 +25,7 @@ export default function Home () {
         <>
             <Header />
             <header className="homeheader">
-                CoffeeCloud
+                CoffeeWithCloud
             </header>
             <header className="homeheadersub">Exploring newest technologies, one cup at a time</header>
             <table className="aboutMe" align="center">
