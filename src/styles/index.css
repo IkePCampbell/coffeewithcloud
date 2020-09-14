@@ -13,6 +13,51 @@ body {
    background-color: #ece0d1;
 }
 
+.contact-form {
+  position: relative;
+  top: 2vw;
+}
+
+.contact-form label{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 30%;
+  text-align: right;
+  font-family: header;
+  font-size: 150%;
+  padding-right: 1%;
+}
+.contact-form input {
+  display: inline-block;
+  float: left;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  width: 40vw;
+}
+textarea {
+  display: inline-block;
+  float: left;
+  resize: none;
+  width: 40%;
+  height: 15vw;
+}
+
+.submitSection {
+  float:left;
+  clear:left;
+  width: 30%;
+  position: relative;
+  left:31%;
+  display: inline-block;
+
+}
+.submitSection input {
+  width: 100px;
+  height: auto;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -73,7 +118,7 @@ a{
 }
 .filterinput{
   position:relative;
-  left: .5%;
+  margin-left: 1vw;
   padding-top:1%;
   padding-bottom:0;
 }

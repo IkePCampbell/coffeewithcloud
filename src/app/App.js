@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch,HashRouter,Redirect } from 'react-router-dom'
+import { Route, Switch,HashRouter } from 'react-router-dom'
 
 import Home from '../components/Home/Home'
 import Blog from '../components/Blog/Blog'
@@ -7,6 +7,7 @@ import BlogSearch from '../components/Search/Blogsearch'
 import About from '../components/About/about'
 import Contact from '../components/Contact/contact'
 import NoPage from '../components/NoPage/NoPage'
+require('dotenv').config()
 
 
 function App() {
