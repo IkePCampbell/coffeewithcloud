@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/coffeewithcloud/static/css/main.dc9c8a6e.chunk.css",
-    "main.js": "/coffeewithcloud/static/js/main.9efa700e.chunk.js",
-    "main.js.map": "/coffeewithcloud/static/js/main.9efa700e.chunk.js.map",
+    "main.css": "/coffeewithcloud/static/css/main.3c5c1796.chunk.css",
+    "main.js": "/coffeewithcloud/static/js/main.c8035b88.chunk.js",
+    "main.js.map": "/coffeewithcloud/static/js/main.c8035b88.chunk.js.map",
     "runtime-main.js": "/coffeewithcloud/static/js/runtime-main.a8faa6fa.js",
     "runtime-main.js.map": "/coffeewithcloud/static/js/runtime-main.a8faa6fa.js.map",
     "static/js/2.e92c49bd.chunk.js": "/coffeewithcloud/static/js/2.e92c49bd.chunk.js",
     "static/js/2.e92c49bd.chunk.js.map": "/coffeewithcloud/static/js/2.e92c49bd.chunk.js.map",
     "index.html": "/coffeewithcloud/index.html",
-    "precache-manifest.d265c6d1318d4eab37d3d26cac4ca187.js": "/coffeewithcloud/precache-manifest.d265c6d1318d4eab37d3d26cac4ca187.js",
+    "precache-manifest.0896d80db89ff0c6c63ab5766cfc11db.js": "/coffeewithcloud/precache-manifest.0896d80db89ff0c6c63ab5766cfc11db.js",
     "service-worker.js": "/coffeewithcloud/service-worker.js",
-    "static/css/main.dc9c8a6e.chunk.css.map": "/coffeewithcloud/static/css/main.dc9c8a6e.chunk.css.map",
+    "static/css/main.3c5c1796.chunk.css.map": "/coffeewithcloud/static/css/main.3c5c1796.chunk.css.map",
     "static/js/2.e92c49bd.chunk.js.LICENSE.txt": "/coffeewithcloud/static/js/2.e92c49bd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/coffeewithcloud/static/media/Slabo27px-Regular.32e005de.ttf",
     "static/media/blog1.md": "/coffeewithcloud/static/media/blog1.352051d2.md"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.a8faa6fa.js",
     "static/js/2.e92c49bd.chunk.js",
-    "static/css/main.dc9c8a6e.chunk.css",
-    "static/js/main.9efa700e.chunk.js"
+    "static/css/main.3c5c1796.chunk.css",
+    "static/js/main.c8035b88.chunk.js"
   ]
 }
