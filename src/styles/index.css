@@ -59,9 +59,9 @@ a{
   left: 8%;
   width: 80%;
   background-image: url('../img/AboutMePhoto.jpg');
-  background-size: 45% 100%;
+  background-size: 30vw 40vw;
   background-repeat: no-repeat;
-  height:73ch;
+  height:70ch;
   overflow: hidden;
 
 }
@@ -110,12 +110,12 @@ a{
   position: relative;
   left: 25vw;
 
-}
+}  
 
 .nav {
   position: relative;
   word-wrap: break-word;
-  font-size: 23px;
+
   background-color:#1a1004;
   overflow: hidden;
   font-family: header;
@@ -129,7 +129,7 @@ a{
   text-align: center;
   padding: 14px 2% 16px 2%;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 2vw;
   margin: 0;
 }
 
