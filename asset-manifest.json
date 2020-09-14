@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/coffeewithcloud/static/css/main.e0c656b8.chunk.css",
-    "main.js": "/coffeewithcloud/static/js/main.09e402f2.chunk.js",
-    "main.js.map": "/coffeewithcloud/static/js/main.09e402f2.chunk.js.map",
+    "main.css": "/coffeewithcloud/static/css/main.dc9c8a6e.chunk.css",
+    "main.js": "/coffeewithcloud/static/js/main.89ec290e.chunk.js",
+    "main.js.map": "/coffeewithcloud/static/js/main.89ec290e.chunk.js.map",
     "runtime-main.js": "/coffeewithcloud/static/js/runtime-main.a8faa6fa.js",
     "runtime-main.js.map": "/coffeewithcloud/static/js/runtime-main.a8faa6fa.js.map",
-    "static/js/2.74b9c04f.chunk.js": "/coffeewithcloud/static/js/2.74b9c04f.chunk.js",
-    "static/js/2.74b9c04f.chunk.js.map": "/coffeewithcloud/static/js/2.74b9c04f.chunk.js.map",
+    "static/js/2.6d48c5f3.chunk.js": "/coffeewithcloud/static/js/2.6d48c5f3.chunk.js",
+    "static/js/2.6d48c5f3.chunk.js.map": "/coffeewithcloud/static/js/2.6d48c5f3.chunk.js.map",
     "index.html": "/coffeewithcloud/index.html",
-    "precache-manifest.522c0179b157d8ffe8815698578db709.js": "/coffeewithcloud/precache-manifest.522c0179b157d8ffe8815698578db709.js",
+    "precache-manifest.f8bb6b553590b1ddb3ef0c7a0b068ef7.js": "/coffeewithcloud/precache-manifest.f8bb6b553590b1ddb3ef0c7a0b068ef7.js",
     "service-worker.js": "/coffeewithcloud/service-worker.js",
-    "static/css/main.e0c656b8.chunk.css.map": "/coffeewithcloud/static/css/main.e0c656b8.chunk.css.map",
-    "static/js/2.74b9c04f.chunk.js.LICENSE.txt": "/coffeewithcloud/static/js/2.74b9c04f.chunk.js.LICENSE.txt",
-    "static/media/AboutMePhoto.jpg": "/coffeewithcloud/static/media/AboutMePhoto.1908f5da.jpg",
+    "static/css/main.dc9c8a6e.chunk.css.map": "/coffeewithcloud/static/css/main.dc9c8a6e.chunk.css.map",
+    "static/js/2.6d48c5f3.chunk.js.LICENSE.txt": "/coffeewithcloud/static/js/2.6d48c5f3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/coffeewithcloud/static/media/Slabo27px-Regular.32e005de.ttf",
     "static/media/blog1.md": "/coffeewithcloud/static/media/blog1.352051d2.md"
   },
   "entrypoints": [
     "static/js/runtime-main.a8faa6fa.js",
-    "static/js/2.74b9c04f.chunk.js",
-    "static/css/main.e0c656b8.chunk.css",
-    "static/js/main.09e402f2.chunk.js"
+    "static/js/2.6d48c5f3.chunk.js",
+    "static/css/main.dc9c8a6e.chunk.css",
+    "static/js/main.89ec290e.chunk.js"
   ]
 }
