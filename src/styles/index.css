@@ -100,13 +100,14 @@ a{
 
 .aboutMePage{
   position: relative;
-  padding-top: 2%;
+  margin-top: 1%;
+  padding-top: 3%;
   left: 8%;
   width: 80%;
   background-image: url('../img/AboutMePhoto.jpg');
   background-size: 30vw 40vw;
   background-repeat: no-repeat;
-  height:70ch;
+  height:76ch;
   overflow: hidden;
 
 }
@@ -130,8 +131,22 @@ a{
   font-weight: bold;
   font-family: ubu;
 }
-
-
+.NoPage{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    font-family: header;
+    margin-top: 10%;
+    font-size: 3vw;
+}
+.blogPostNotFound{
+  position: relative;
+  left: 30%;
+  width: 40%;
+  font-family: header;
+  margin-top: 10%;
+  font-size: 3vw;
+}
 .blogPost {
   padding-top: 1.5ch;
   width: 55vw;
@@ -160,7 +175,6 @@ a{
 .nav {
   position: relative;
   word-wrap: break-word;
-
   background-color:#1a1004;
   overflow: hidden;
   font-family: header;
@@ -174,7 +188,7 @@ a{
   text-align: center;
   padding: 14px 2% 16px 2%;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 130%;
   margin: 0;
 }
 

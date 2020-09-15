@@ -6,8 +6,8 @@ export default function NoMatch() {
     return(
         <>
         <Header />
-        <div>
-            <h1>404 Theres nothing here!</h1>
+        <div className = "blogPostNotFound">
+            <p>Oh no! Looks like you got lost! There's nothing here :/</p>
         </div>
         </>
     )

@@ -19,7 +19,7 @@ export default function Blogs (props) {
             <Header />
             {!blogs[id] ?
                 <div className="blogPostNotFound">
-                    <p>yikes no blog here :/ </p>
+                    <p>Oh no! Looks like you got lost! There's nothing here :/</p>
                 </div> :                            
                     <div className="blogPost">
                         <h1>{blogs[id].name}</h1>
