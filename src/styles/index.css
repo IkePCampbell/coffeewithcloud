@@ -153,7 +153,12 @@ a{
   position: relative;
   left: 25vw;
   word-wrap: break-word;
-  font-size: 23px;
+  font-size: 120%;
+}
+
+.blogEnding {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .blogPost h1 {

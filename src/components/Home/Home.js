@@ -9,7 +9,7 @@ const Blogs = ({blogs}) => {
     return blogs.slice(0,4).reverse().map((b, index) => {
         return (
             <div key={b.id} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
-                    <Link to={`/blogs/${index}`}>
+                    <Link to={`/blogs/${b.id}`}>
                     <h3 style={{paddingBottom:'0px'}}>{b.name}</h3>
                     <h5>{b.date}</h5>
                     <p>{b.teaser}</p>

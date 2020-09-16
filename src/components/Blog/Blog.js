@@ -27,8 +27,15 @@ export default function Blogs (props) {
                         <div className = "markdownContent">
                             <ReactMarkdown source = {markdown} escapeHtml={false} />
                         </div>
+                        <br></br>
+                        <div className="blogEnding">
+                            <p>{blogs[id].ending}</p>
+                            <p style={{paddingTop:"1%"}}>Feel free to <a href="https://ikepcampbell.github.io/coffeewithcloud/#/contactme">contact me</a> with any questions or suggestions!</p>
+                            </div>
+                        <br></br>
                 </div>
             }
+
         </>
     )
 }
