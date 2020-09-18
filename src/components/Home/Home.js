@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import {blogs} from '../../data/blogs'
 import Header from "../Header/Header"
@@ -8,12 +8,12 @@ import profilepic from '../../img/profilepic.png'
 const Blogs = ({blogs}) => {
     return blogs.slice(0,4).reverse().map((b, index) => {
         return (
-            <div key={b.id} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
-                    <Link to={`/blogs/${b.id}`}>
-                    <h3 style={{paddingBottom:'0px'}}>{b.name}</h3>
-                    <h5>{b.date}</h5>
-                    <p>{b.teaser}</p>
-                    <p style={{fontSize:'14px'}}>Tags: {b.tags}</p>
+            <div key={b.id} className="blogDemo card" style={{marginBottom:'3ch',marginTop:'1ch'}}>
+                    <Link className="card-body" style={{textDecoration:'none'}} to={`/blogs/${b.id}`}>
+                    <h3 className="card-title" style={{paddingBottom:'0px'}}>{b.name}</h3>
+                    <h5 className="card-subtitle" >{b.date}</h5>
+                    <p className="card-text" >{b.teaser}</p>
+                    <p className="card-text" style={{fontSize:'14px'}}>Tags: {b.tags}</p>
                     </Link>
                 </div>)
     })
@@ -28,6 +28,7 @@ export default function Home () {
                 CoffeeWithCloud
             </header>
             <header className="homeheadersub">Exploring newest technologies, one cup at a time</header>
+            <div className="d-flex flex-column">
             <table className="aboutMe" align="center">
                 <tbody>
                     <tr>
@@ -41,6 +42,7 @@ export default function Home () {
             <main>
                 <Blogs blogs={blogs} />
             </main>
+            </div>
         </>
     )
 }

@@ -26,7 +26,7 @@ const ContactMe = () => {
 
     ;
     return(
- 
+        <div className="d-flex flex-column">
         <form id ="contact-form" className="contact-form" onSubmit={handleSubmit}>
             <div style={{paddingBottom:"3vw"}}>
                 <label>Name: </label>
@@ -50,6 +50,7 @@ const ContactMe = () => {
             </div>
 
         </form>
+        </div>
     )
 
 };

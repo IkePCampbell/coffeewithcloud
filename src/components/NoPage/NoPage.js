@@ -6,7 +6,7 @@ export default function NoMatch() {
     return(
         <>
         <Header />
-        <div className = "blogPostNotFound">
+        <div className = "blogPostNotFound d-flex flex-column">
             <p>Oh no! Looks like you got lost! There's nothing here :/</p>
         </div>
         </>

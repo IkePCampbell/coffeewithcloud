@@ -23,20 +23,20 @@ const SearchBlogs = props => {
         }
     };
     return (
-        <div>
+        <div className="d-flex flex-column">
             <div className="filterinput">
             Search title and tags for: <input onChange={e => searchByName(e.target.value.toLowerCase())} 
                     onKeyUp={e => searchByName(e.target.value.toLowerCase())} />
             </div>
             {fliterDisplay.map((b,i) => (
-                <div key={b.i} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
-                    <Link to={`/blogs/${b.id}`}>
-                    <h3 style={{paddingBottom:'0px'}}>{b.name}</h3>
-                    <h5>{b.date}</h5>
-                    <p>{b.teaser}</p>
-                    <p style={{fontSize:'14px'}}>Tags: {b.tags}</p>
-                    </Link>
-                </div>
+                <div key={b.id} className="blogDemo card" style={{marginBottom:'3ch',marginTop:'1ch'}}>
+                <Link className="card-body" style={{textDecoration:'none'}} to={`/blogs/${b.id}`}>
+                <h3 className="card-title" style={{paddingBottom:'0px'}}>{b.name}</h3>
+                <h5 className="card-subtitle" >{b.date}</h5>
+                <p className="card-text" >{b.teaser}</p>
+                <p className="card-text" style={{fontSize:'14px'}}>Tags: {b.tags}</p>
+                </Link>
+            </div>
             ))}
             
         </div>
