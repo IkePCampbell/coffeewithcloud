@@ -33,10 +33,14 @@ export default function Home () {
                 <title>coffeewithcloud☕</title>
             </Helmet> 
             <div className="col-lg-12">
+            <div className="home">
+            <br/>
             <header className="homeheader">
-                CoffeeWithCloud
+                <h1>CoffeeWithCloud</h1>
             </header>
-            <header className="homeheadersub">Exploring newest technologies, one cup at a time</header>
+            <header className="homeheadersub">
+                <h2>Exploring newest technologies, one cup at a time</h2>
+            </header>
             <table className="aboutMe" align="center">
                 <tbody>
                     <tr>
@@ -45,8 +49,8 @@ export default function Home () {
                     </tr>
                 </tbody>
             </table>
-            <p style={{width:'40%',left:"30%",margin:"0 auto"}}>Recent Posts: </p>
-
+            <p style={{marginLeft: '12.5%'}}>Recent Posts: </p>
+            </div>
             <main>
                 <Blogs blogs={blogs} />
             </main>

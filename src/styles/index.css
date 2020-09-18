@@ -6,6 +6,7 @@
 :root {
   --tan: #dbc1ac;
   --brown: #38220f;
+  --background: #ece0d1;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background-color: var(--tan);
+   background-color: var(--background);
 }
 
 .contact-form {
@@ -84,9 +85,8 @@ a{
 }
 
 .profile {
-  border-radius: 50vw;
   width: 75px;
-  height: 75px;  padding-top: 2ch;
+  height: 75px;
 }
 
 .homeheadersub{
@@ -94,7 +94,6 @@ a{
   font-size: 20px;
   font-family: header;
   color:gray;
-  padding-bottom: 0px;
 }
 
 .aboutMe{
@@ -130,7 +129,6 @@ a{
 
 .homeheader{
   text-align: center;
-  padding-top: 2ch;
   font-size: 40px;
   font-weight: bold;
   font-family: ubu;
