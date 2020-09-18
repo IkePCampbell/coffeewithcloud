@@ -26,27 +26,29 @@ const ContactMe = () => {
 
     ;
     return(
- 
-        <form id ="contact-form" className="contact-form" onSubmit={handleSubmit}>
-            <div style={{paddingBottom:"3vw"}}>
-                <label>Name: </label>
-                <input type="text" name="name" required/>
+        <form id ="contact-form" className="contact-form col-sm-10 col-md-8" onSubmit={handleSubmit}>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" placeholder="name" id="name" aria-describedby="name" />
+             </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" placeholder="email" id="email" aria-describedby="emailHelp" />
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-            <div style={{paddingBottom:"3vw"}}>
-                <label>Email:</label>
-                <input type="email" name="email" required/>
-            </div>
-            <div style={{paddingBottom:"3vw"}}>    
-                <label>Subject: </label>
-                <input type ="text" name ="subject" required/>
-            </div>
-            <div style={{paddingBottom:"3vw"}}>
-                <label>Message: </label>
-                <textarea name="message" required/>
-            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" placeholder="subject" id="subject" aria-describedby="subject" />
+             </div>
+             <div class="form-group">
+                <label for="message">Message</label>
+                <textarea type="text" rows="3" class="form-control" placeholder="message" id="message" aria-describedby="subject" />
+             </div>
             <div className = "submitSection">
                 <ReCAPTCHA sitekey={process.env.REACT_APP_KEY} onChange={changeSubmit}/>
-                <input type="submit" disabled={enabled} value="Submit"/>
+                <button type="submit" className="btn btn-primary" disabled={enabled} value="Submit" style={{ cursor: 'pointer' }}>
+                    Submit
+                </button>
             </div>
 
         </form>
@@ -57,12 +59,12 @@ const ContactMe = () => {
 export default function Contact() {
     return (
         <>
-        <Helmet>
-            <title>Contact Me</title>
-        </Helmet> 
-        <div>
-            <ContactMe />
-        </div>  
+            <Helmet>
+                <title>Contact Me</title>
+            </Helmet> 
+            <div>
+                <ContactMe />
+            </div>  
         </>
     )
 }

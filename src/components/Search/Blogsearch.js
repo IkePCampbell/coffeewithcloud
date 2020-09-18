@@ -23,11 +23,19 @@ const SearchBlogs = props => {
         }
     };
     return (
-        <div>
+        <div className="col-lg-12">
+            <br/>
             <div className="filterinput">
-            Search title and tags for: <input onChange={e => searchByName(e.target.value.toLowerCase())} 
+            <div class="input-group input-group-lg" style={{ width: '75%', marginLeft: '12.5%'}}>
+            <span class="input-group-btn">
+                <label for="search" className="btn-lg">Search title and tags for:</label>
+                </span>
+                <input type="text" class="form-control input-lg" placeholder="search" id="search" aria-describedby="search" onChange={e => searchByName(e.target.value.toLowerCase())} 
                     onKeyUp={e => searchByName(e.target.value.toLowerCase())} />
+             </div>
             </div>
+            <hr/>
+            <br/>
             {fliterDisplay.map((b,i) => (
                 <div key={b.i} style={{marginBottom:'3ch',marginTop:'1ch'}}>
                     <Link to={`/blogs/${b.id}`}>

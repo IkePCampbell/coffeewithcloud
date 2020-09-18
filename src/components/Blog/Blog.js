@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import ReactMarkdown, { types } from "react-markdown";
+import ReactMarkdown from "react-markdown";
 import {blogs} from '../../data/blogs'
 import {Helmet} from 'react-helmet'
 

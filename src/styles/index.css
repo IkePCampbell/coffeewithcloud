@@ -20,41 +20,16 @@ body {
 }
 
 .contact-form {
-  position: relative;
-  top: 2vw;
-}
-
-.contact-form label{
-  display: inline-block;
-  float: left;
-  clear: left;
-  width: 30%;
-  text-align: right;
-  font-family: header;
-  font-size: 150%;
-  padding-right: 1%;
-}
-.contact-form input {
-  display: inline-block;
-  float: left;
-  padding-top: .5%;
-  padding-bottom: .5%;
-  width: 40vw;
-}
-textarea {
-  display: inline-block;
-  float: left;
-  resize: none;
-  width: 40%;
-  height: 15vw;
+  padding-top: 2em;
+  margin: auto;
 }
 
 .submitSection {
   float:left;
   clear:left;
   width: 30%;
-  position: relative;
-  left:31%;
+  position: absolute;
+  left:0;
   display: inline-block;
 
 }

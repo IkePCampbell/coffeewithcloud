@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import {blogs} from '../../data/blogs'
 import profilepic from '../../img/profilepic.png'
@@ -30,6 +30,7 @@ export default function Home () {
     return (
         <>
             <Helmet>
+                {/* eslint-disable-next-line */}
                 <title>coffeewithcloud☕</title>
             </Helmet> 
             <div className="col-lg-12">
@@ -41,14 +42,12 @@ export default function Home () {
             <header className="homeheadersub">
                 <h2>Exploring newest technologies, one cup at a time</h2>
             </header>
-            <table className="aboutMe" align="center">
-                <tbody>
-                    <tr>
-                        <td align = "left" valign = "top"><img src={profilepic} className="profile" alt="profile" /></td>
-                        <td align = "left" valign = "top"><p><br></br>Welcome to the blog! Grab a seat, your coffee is almost ready!<br></br>While you wait, check out <a href="http://www.github.com/ikepcampbell">my GitHub</a> for all content in this blog.</p></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div align="center">
+                
+                <p><br></br>Welcome to the blog! Grab a seat, your coffee is almost ready!<br></br>While you wait, check out <a href="http://www.github.com/ikepcampbell">my GitHub</a> for all content in this blog.</p>
+                <img src={profilepic} className="profile" alt="profile" />
+            </div>
+            <br/>
             <p style={{marginLeft: '12.5%'}}>Recent Posts: </p>
             </div>
             <main>
