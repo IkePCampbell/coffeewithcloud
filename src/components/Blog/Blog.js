@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown, { types } from "react-markdown";
 import {blogs} from '../../data/blogs'
+import Header from '../Header/Header'
 
 export default function Blogs (props) {
     const [markdown, setMarkdown] = useState(null)
@@ -15,11 +16,18 @@ export default function Blogs (props) {
 
     return (
         <>
+            <Header />
             {!blogs[id] ?
                 <div className="blogPostNotFound">
+                    <Helmet>
+                        <title>Whoops!</title>
+                    </Helmet> 
                     <p>Oh no! Looks like you got lost! There's nothing here :/</p>
                 </div> :                            
-                    <div className="blogPost d-flex flex-column">
+                    <div className="blogPost">
+                        <Helmet>
+                            <title>{blogs[id].name}</title>
+                        </Helmet>
                         <h1>{blogs[id].name}</h1>
                         <h4>By: {blogs[id].author} &nbsp;&nbsp;&nbsp; {blogs[id].date}</h4>
                         <div className = "markdownContent">

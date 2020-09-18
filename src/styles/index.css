@@ -75,9 +75,17 @@ a{
 
 .blogDemo {
   border: black solid 1px;
-  margin: 0 5em;
+  box-sizing: content-box;
+  width: 40%;
+  position: relative;
+  left: 30%;
   color: black;
+<<<<<<< HEAD
   background-color: var(--tan);
+=======
+  padding-left: 5ch;
+  background-color: #dbc1ac;
+>>>>>>> 2fd16c97e5c9689700d986b36902a4399f750022
 }
 
 .profile {
@@ -211,14 +219,8 @@ a{
 
 @media screen and (max-width: 480px) {
   /* css for mobile */
-  .blogDemo {
-    margin: 0 10%;
-  }
 }
 
 @media screen and (min-width: 481px) {
   /* css for bigger screens */
-  .blogDemo {
-    margin: 0 20%;
-  }
 }
