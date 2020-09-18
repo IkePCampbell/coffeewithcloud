@@ -80,12 +80,7 @@ a{
   position: relative;
   left: 30%;
   color: black;
-<<<<<<< HEAD
   background-color: var(--tan);
-=======
-  padding-left: 5ch;
-  background-color: #dbc1ac;
->>>>>>> 2fd16c97e5c9689700d986b36902a4399f750022
 }
 
 .profile {

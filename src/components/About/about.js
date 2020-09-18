@@ -1,15 +1,13 @@
 import React  from 'react'
-import Header from '../Header/Header'
 import {Helmet} from 'react-helmet'
 
 export default function About(){
-    {
+
     return (
         <>
         <Helmet>
             <title>About Me!</title>
         </Helmet>
-        <Header />
         <div className ="aboutMePage">
             <h1 class="container-content"> Hello all !!</h1>
             <p style={{paddingTop:"1%",fontSize:"18px"}}class="container-content">My name is Isaac, and the lovely woman who is making me cheese is my wife Sam!</p>
@@ -24,4 +22,3 @@ export default function About(){
         </>
         )
     }
-}

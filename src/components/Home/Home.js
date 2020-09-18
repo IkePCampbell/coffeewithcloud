@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import {blogs} from '../../data/blogs'
-import Header from "../Header/Header"
 import profilepic from '../../img/profilepic.png'
 import {Helmet} from 'react-helmet'
 
@@ -26,7 +25,7 @@ export default function Home () {
             <Helmet>
                 <title>coffeewithcloud☕</title>
             </Helmet> 
-            <Header />
+            <div className="col-lg-12">
             <header className="homeheader">
                 CoffeeWithCloud
             </header>
@@ -44,6 +43,7 @@ export default function Home () {
             <main>
                 <Blogs blogs={blogs} />
             </main>
+            </div>
         </>
     )
 }
