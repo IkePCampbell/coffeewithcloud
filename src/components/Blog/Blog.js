@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ReactMarkdown from "react-markdown";
 import {blogs} from '../../data/blogs'
-import Header from '../Header/Header'
 
 export default function Blogs (props) {
     const [markdown, setMarkdown] = useState(null)
@@ -16,7 +15,6 @@ export default function Blogs (props) {
 
     return (
         <>
-            <Header />
             {!blogs[id] ?
                 <div className="blogPostNotFound">
                     <p>Oh no! Looks like you got lost! There's nothing here :/</p>

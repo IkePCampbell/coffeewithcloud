@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {blogs} from '../../data/blogs'
-import Header from "../Header/Header"
 import profilepic from '../../img/profilepic.png'
 
 
@@ -23,12 +22,11 @@ export default function Home () {
 
     return (
         <>
-            <Header />
+        <div className="col-lg-12">
             <header className="homeheader">
                 CoffeeWithCloud
             </header>
             <header className="homeheadersub">Exploring newest technologies, one cup at a time</header>
-            <div className="d-flex flex-column">
             <table className="aboutMe" align="center">
                 <tbody>
                     <tr>

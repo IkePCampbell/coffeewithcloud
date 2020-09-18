@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Header from '../Header/Header'
 import emailjs from 'emailjs-com'
 import {init } from 'emailjs-com'
 import ReCAPTCHA from "react-google-recaptcha"
@@ -58,7 +57,6 @@ const ContactMe = () => {
 export default function Contact() {
     return (
         <>
-        <Header />
         <div>
             <ContactMe />
         </div>  

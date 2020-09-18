@@ -1,11 +1,9 @@
 import React  from 'react'
-import Header from '../Header/Header'
 
 export default function About(){
     
     return (
         <>
-        <Header />
         <div className ="aboutMePage d-flex flex-column">
             <h1 class="container-content"> Hello all !!</h1>
             <p style={{paddingTop:"1%",fontSize:"18px"}}class="container-content">My name is Isaac, and the lovely woman who is making me cheese is my wife Sam!</p>

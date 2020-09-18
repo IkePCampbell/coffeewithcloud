@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import Header from '../Header/Header'
 import {blogs} from '../../data/blogs'
 
 const SearchBlogs = props => {
@@ -46,7 +45,6 @@ const SearchBlogs = props => {
 export default function BlogSearch() {
     return (
         <>
-        <Header />
         <main>
             <SearchBlogs blogs={blogs} />
         </main>

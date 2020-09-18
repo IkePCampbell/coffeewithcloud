@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch,HashRouter } from 'react-router-dom'
 
+import Header from '../components/Header/Header'
 import Home from '../components/Home/Home'
 import Blog from '../components/Blog/Blog'
 import BlogSearch from '../components/Search/Blogsearch'
@@ -13,14 +14,17 @@ require('dotenv').config()
 function App() {
   return (
     <HashRouter basename ='/'>
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/blogs/:blogId' component={Blog} />
-        <Route path='/blogs' component={BlogSearch} />
-        <Route path='/contactme' component={Contact} />
-        <Route path='/about' component={About}/>
-        <Route component={NoPage} />
-      </Switch>
+      <Header />
+      <div className="container">
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/blogs/:blogId' component={Blog} />
+          <Route path='/blogs' component={BlogSearch} />
+          <Route path='/contactme' component={Contact} />
+          <Route path='/about' component={About}/>
+          <Route component={NoPage} />
+        </Switch>
+      </div>
     </HashRouter>
   );
 }
