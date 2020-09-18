@@ -48,6 +48,7 @@ export default function Home () {
                 <img src={profilepic} className="profile" alt="profile" />
             </div>
             <br/>
+            <hr style={{ width: '75%', marginLeft: '12.5%' }}/>
             <p style={{marginLeft: '12.5%'}}>Recent Posts: </p>
             </div>
             <main>

@@ -34,7 +34,7 @@ const SearchBlogs = props => {
                     onKeyUp={e => searchByName(e.target.value.toLowerCase())} />
              </div>
             </div>
-            <hr/>
+            <hr style={{ width: '75%', marginLeft: '12.5%' }}/>
             <br/>
             {fliterDisplay.map((b,i) => (
                 <div key={b.i} style={{marginBottom:'3ch',marginTop:'1ch'}}>
@@ -52,7 +52,7 @@ const SearchBlogs = props => {
                 </div>
                 </Link>
                 </div>
-            ))}
+            )).reverse()}
             
         </div>
     )
