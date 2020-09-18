@@ -19,9 +19,15 @@ export default function Blogs (props) {
             <Header />
             {!blogs[id] ?
                 <div className="blogPostNotFound">
+                    <Helmet>
+                        <title>Whoops!</title>
+                    </Helmet> 
                     <p>Oh no! Looks like you got lost! There's nothing here :/</p>
                 </div> :                            
                     <div className="blogPost">
+                        <Helmet>
+                            <title>{blogs[id].name}</title>
+                        </Helmet>
                         <h1>{blogs[id].name}</h1>
                         <h4>By: {blogs[id].author} &nbsp;&nbsp;&nbsp; {blogs[id].date}</h4>
                         <div className = "markdownContent">

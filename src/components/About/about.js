@@ -1,10 +1,14 @@
 import React  from 'react'
 import Header from '../Header/Header'
+import {Helmet} from 'react-helmet'
 
 export default function About(){
     {
     return (
         <>
+        <Helmet>
+            <title>About Me!</title>
+        </Helmet>
         <Header />
         <div className ="aboutMePage">
             <h1 class="container-content"> Hello all !!</h1>

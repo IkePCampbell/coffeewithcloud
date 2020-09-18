@@ -46,6 +46,9 @@ const SearchBlogs = props => {
 export default function BlogSearch() {
     return (
         <>
+        <Helmet>
+            <title>Search For Blogs</title>
+        </Helmet> 
         <Header />
         <main>
             <SearchBlogs blogs={blogs} />

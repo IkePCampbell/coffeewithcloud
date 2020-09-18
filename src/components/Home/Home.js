@@ -23,6 +23,9 @@ export default function Home () {
 
     return (
         <>
+            <Helmet>
+                <title>coffeewithcloud☕</title>
+            </Helmet> 
             <Header />
             <header className="homeheader">
                 CoffeeWithCloud

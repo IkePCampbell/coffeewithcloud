@@ -57,6 +57,9 @@ const ContactMe = () => {
 export default function Contact() {
     return (
         <>
+        <Helmet>
+            <title>Contact Me</title>
+        </Helmet>        
         <Header />
         <div>
             <ContactMe />
