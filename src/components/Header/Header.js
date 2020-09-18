@@ -5,7 +5,7 @@ import cloud from '../../img/coffeecloud.png'
 const Header = () => {
     return (
         <>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <Link to={`/`} className="nav-brand"><img src={cloud} alt="coffeecloud"/></Link>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
