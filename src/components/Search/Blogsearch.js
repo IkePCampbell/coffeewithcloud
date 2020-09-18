@@ -29,13 +29,20 @@ const SearchBlogs = props => {
                     onKeyUp={e => searchByName(e.target.value.toLowerCase())} />
             </div>
             {fliterDisplay.map((b,i) => (
-                <div key={b.i} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
+                <div key={b.i} style={{marginBottom:'3ch',marginTop:'1ch'}}>
                     <Link to={`/blogs/${b.id}`}>
-                    <h3 style={{paddingBottom:'0px'}}>{b.name}</h3>
-                    <h5>{b.date}</h5>
-                    <p>{b.teaser}</p>
-                    <p style={{fontSize:'14px'}}>Tags: {b.tags}</p>
-                    </Link>
+                <div class="card w-75" style={{margin: '0 auto'}}>
+                <div class="card-body">
+                    <h5 class="card-title">{b.name}
+                        <div class="text-muted" style={{ fontSize:"0.65em" }}>
+                            {b.date}
+                        </div>
+                    </h5>
+                    <p class="card-text">{b.teaser}</p>
+                    <footer class="blockquote-footer">Tags: {b.tags}</footer>
+                </div>
+                </div>
+                </Link>
                 </div>
             ))}
             
