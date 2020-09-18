@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {blogs} from '../../data/blogs'
 import Header from "../Header/Header"
 import profilepic from '../../img/profilepic.png'
-
+import {Helmet} from 'react-helmet'
 
 const Blogs = ({blogs}) => {
     return blogs.slice(0,4).reverse().map((b, index) => {

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import ReactMarkdown, { types } from "react-markdown";
 import {blogs} from '../../data/blogs'
 import Header from '../Header/Header'
+import {Helmet} from 'react-helmet'
 
 export default function Blogs (props) {
     const [markdown, setMarkdown] = useState(null)
