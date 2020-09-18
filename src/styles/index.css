@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+:root {
+  --tan: #dbc1ac;
+  --brown: #38220f;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,7 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background-color: #ece0d1;
+   background-color: var(--tan);
 }
 
 .contact-form {
@@ -65,14 +70,14 @@ code {
 
 a{
   text-decoration:none;
-  color: #38220f;
+  color: var(--brown);
 }
 
 .blogDemo {
   border: black solid 1px;
   margin: 0 5em;
   color: black;
-  background-color: #dbc1ac;
+  background-color: var(--tan);
 }
 
 .profile {
@@ -90,7 +95,7 @@ a{
 }
 
 .aboutMe{
-  color: 38220f;
+  color: var(--brown);
   margin: 0 auto;
 }
 
@@ -195,7 +200,7 @@ a{
 
 /* Change the color of links on hover */
 .nav a:hover {
-  background-color: #dbc1ac;
+  background-color: var(--tan);
   color: black;
 }
 
