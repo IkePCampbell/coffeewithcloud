@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import emailjs from 'emailjs-com'
 import {init } from 'emailjs-com'
 import ReCAPTCHA from "react-google-recaptcha"
+import {Helmet} from 'react-helmet'
 init("user_rDmZxoYyuflV3LIrIZoGp");
 
 const ContactMe = () => {

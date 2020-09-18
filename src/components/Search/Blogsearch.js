@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
 import {blogs} from '../../data/blogs'
+import {Helmet} from 'react-helmet'
 
 const SearchBlogs = props => {
     const [search, setSearch] = useState("");
