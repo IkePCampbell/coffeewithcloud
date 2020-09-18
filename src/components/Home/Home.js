@@ -7,13 +7,20 @@ import {Helmet} from 'react-helmet'
 const Blogs = ({blogs}) => {
     return blogs.slice(0,4).reverse().map((b, index) => {
         return (
-            <div key={b.id} className="blogDemo" style={{marginBottom:'3ch',marginTop:'1ch'}}>
-                    <Link to={`/blogs/${b.id}`}>
-                    <h3 style={{paddingBottom:'0px'}}>{b.name}</h3>
-                    <h5>{b.date}</h5>
-                    <p>{b.teaser}</p>
-                    <p style={{fontSize:'14px'}}>Tags: {b.tags}</p>
-                    </Link>
+            <div key={b.id} style={{marginBottom:'3ch',marginTop:'1ch'}}>
+                <Link to={`/blogs/${b.id}`}>
+                <div class="card w-75" style={{margin: '0 auto'}}>
+                <div class="card-body">
+                    <h5 class="card-title">{b.name}
+                        <div class="text-muted" style={{ fontSize:"0.65em" }}>
+                            {b.date}
+                        </div>
+                    </h5>
+                    <p class="card-text">{b.teaser}</p>
+                    <footer class="blockquote-footer">Tags: {b.tags}</footer>
+                </div>
+                </div>
+                </Link>
                 </div>)
     })
 } 

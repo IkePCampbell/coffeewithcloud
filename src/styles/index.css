@@ -189,6 +189,14 @@ a{
   color: var(--tan)
 }
 
+.a, .a:active, .a:hover, a:visited, a:link {
+  text-decoration: none;
+}
+
+.card {
+  background-color: var(--tan);
+  color: var(--brown)
+}
 
 /* Change the color of links on hover */
 .nav a:hover {
