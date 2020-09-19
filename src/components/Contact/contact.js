@@ -44,9 +44,10 @@ const ContactMe = () => {
                 <label for="message">Message</label>
                 <textarea type="text" rows="3" class="form-control" placeholder="message" id="message" aria-describedby="subject" />
              </div>
-            <div className = "submitSection">
+            <div className = "submitSection col-sm-10 col-md-8">
                 <ReCAPTCHA sitekey={process.env.REACT_APP_KEY} onChange={changeSubmit}/>
-                <button type="submit" className="btn btn-primary" disabled={enabled} value="Submit" style={{ cursor: 'pointer' }}>
+                <br/>
+                <button type="submit" className="btn btn-primary w-100" disabled={enabled} value="Submit" style={{ cursor: 'pointer' }}>
                     Submit
                 </button>
             </div>
