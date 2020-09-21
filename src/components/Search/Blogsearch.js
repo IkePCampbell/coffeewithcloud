@@ -39,7 +39,7 @@ const SearchBlogs = props => {
             {fliterDisplay.map((b,i) => (
                 <div key={i} style={{marginBottom:'3ch',marginTop:'1ch'}}>
                     <Link to={`/blogs/${b.id}`}>
-                        <div className="card w-75" style={{margin: '0 auto'}}>
+                        <div className="card col-md-12 col-lg-6" style={{margin: '0 auto'}}>
                         <div className="card-body">
                             <h5 className="card-title">{b.name}
                                 <div className="text-muted" style={{ fontSize:"0.65em" }}>
