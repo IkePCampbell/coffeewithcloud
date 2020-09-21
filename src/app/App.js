@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Route, Switch,HashRouter } from 'react-router-dom'
 
 import Header from '../components/Header/Header'
@@ -26,7 +26,7 @@ function App() {
         </Switch>
       </div>
     </HashRouter>
-  );
+  )
 }
 
-export default App;
+export default App
