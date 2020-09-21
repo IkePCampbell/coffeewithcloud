@@ -45,7 +45,7 @@ export default function Home () {
             <div align="center">
                 
                 <p><br></br>Welcome to the blog! Grab a seat, your coffee is almost ready!<br></br>While you wait, check out <a href="http://www.github.com/ikepcampbell">my GitHub</a> for all content in this blog.</p>
-                <img src={profilepic} className="profile" alt="profile" />
+                <a href="https://github.com/IkePCampbell"><img src={profilepic} className="profile" alt="profile"  /></a>
             </div>
             <br/>
             <hr style={{ width: '75%', marginLeft: '12.5%' }}/>
