@@ -76,22 +76,20 @@ a{
   margin: 0 auto;
 }
 
+.aboutMePage img {
+  float: left;
+  margin: 0px 15px 15px 0px;
+  width:40%;
+}
+
 .aboutMePage{
   position: relative;
   margin-top: 1%;
   padding-top: 3%;
-  left: 8%;
-  width: 80%;
-  background-image: url('../img/AboutMePhoto.jpg');
-  background-size: 30vw 40vw;
-  background-repeat: no-repeat;
-  height:76ch;
-  overflow: hidden;
+  
 
 }
 .container-content {
-  overflow: hidden;
-  position: relative;
   margin-left: 50%;
   color: #1a1004;
 }
@@ -100,6 +98,7 @@ a{
   margin-left: 1vw;
   padding-top:1%;
   padding-bottom:0;
+  font-family: header;
 }
 
 .homeheader{
@@ -128,7 +127,7 @@ a{
   padding-top: 1.5ch;
   width: 55vw;
   position: relative;
-  left: 25vw;
+  left: 10vw;
   word-wrap: break-word;
   font-size: 120%;
 }

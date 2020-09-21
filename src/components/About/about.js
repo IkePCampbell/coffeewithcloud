@@ -1,5 +1,6 @@
 import React  from 'react'
 import {Helmet} from 'react-helmet'
+import aboutPhoto from '../../img/AboutMePhoto.jpg'
 
 export default function About(){
 
@@ -9,6 +10,7 @@ export default function About(){
             <title>About Me!</title>
         </Helmet>
         <div className ="aboutMePage">
+            <img src={aboutPhoto} alt="My wife and I"></img>
             <h1 class="container-content"> Hello all !!</h1>
             <p style={{paddingTop:"1%",fontSize:"18px"}}class="container-content">My name is Isaac, and the lovely woman who is making me cheese is my wife Sam!</p>
             <p style={{paddingTop:"1%"}}class="container-content"> We got married in the midst of the 2020 pandemic and let me just say how incredible she is and that life is a living dream because of her. She is the the primary inspiration and creative genius for this blog.</p>

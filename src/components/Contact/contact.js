@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com'
 import {init } from 'emailjs-com'
 import ReCAPTCHA from "react-google-recaptcha"
 import {Helmet} from 'react-helmet'
-init("user_rDmZxoYyuflV3LIrIZoGp");
+init(process.env.REACT_APP_USER);
 
 const ContactMe = () => {
     const [enabled, setEnabled] = useState(true)
@@ -29,20 +29,20 @@ const ContactMe = () => {
         <form id ="contact-form" className="contact-form col-sm-10 col-md-8" onSubmit={handleSubmit}>
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" placeholder="name" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" placeholder="Name" id="name" aria-describedby="name" />
              </div>
             <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" placeholder="email" id="email" aria-describedby="emailHelp" />
+                <input type="email" class="form-control" placeholder="Email" id="email" aria-describedby="emailHelp" />
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
                 <label for="subject">Subject</label>
-                <input type="text" class="form-control" placeholder="subject" id="subject" aria-describedby="subject" />
+                <input type="text" class="form-control" placeholder="Subject" id="subject" aria-describedby="subject" />
              </div>
              <div class="form-group">
                 <label for="message">Message</label>
-                <textarea type="text" rows="3" class="form-control" placeholder="message" id="message" aria-describedby="subject" />
+                <textarea type="text" rows="3" class="form-control" placeholder="Message" id="message" aria-describedby="subject" />
              </div>
             <div className = "submitSection col-sm-10 col-md-8">
                 <ReCAPTCHA sitekey={process.env.REACT_APP_KEY} onChange={changeSubmit}/>

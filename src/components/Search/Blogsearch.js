@@ -30,7 +30,7 @@ const SearchBlogs = props => {
             <span class="input-group-btn">
                 <label for="search" className="btn-lg">Search title and tags for:</label>
                 </span>
-                <input type="text" class="form-control input-lg" placeholder="search" id="search" aria-describedby="search" onChange={e => searchByName(e.target.value.toLowerCase())} 
+                <input type="text" class="form-control input-lg" placeholder="Search" id="search" aria-describedby="search" onChange={e => searchByName(e.target.value.toLowerCase())} 
                     onKeyUp={e => searchByName(e.target.value.toLowerCase())} />
              </div>
             </div>
