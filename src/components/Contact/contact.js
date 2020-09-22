@@ -9,12 +9,20 @@ const ContactMe = () => {
   const [ enabled, setEnabled ] = useState(true)
   const handleSubmit = (e) =>{
     e.preventDefault()
-    emailjs.sendForm(process.env.REACT_APP_SERVICE,process.env.REACT_APP_TEMPLATE, e.target, process.env.REACT_APP_USER)
+    console.log(e.target);
+    var template = {
+      name: e.target.name.value,
+      email: e.target.email.value,
+      message: e.target.message.value,
+      subject: e.target.subject.value
+    }
+
+     emailjs.send(process.env.REACT_APP_SERVICE,process.env.REACT_APP_TEMPLATE, template, process.env.REACT_APP_USER)
       .then((result) => {
         console.log(result.text)
       }, (error) => {
         console.log(error.text)
-      })
+      }) 
         
     alert('Thank you so much for the message! I will get back to you as soon as I can!!')
     document.getElementById('contact-form').reset()
@@ -46,7 +54,7 @@ const ContactMe = () => {
       <div className = "submitSection col-sm-10 col-md-8">
         <ReCAPTCHA sitekey={process.env.REACT_APP_KEY} onChange={changeSubmit}/>
         <br/>
-        <button type="submit" className="btn btn-primary w-100" disabled={enabled} value="Submit" style={{ cursor: 'pointer' }}>
+        <button type="submit" className="btn btn-primary w-100"  disabled={enabled}value="Submit" style={{ cursor: 'pointer' }}>
           Submit
         </button>
       </div>
