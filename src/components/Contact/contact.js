@@ -23,7 +23,6 @@ const ContactMe = () => {
   const changeSubmit = () => {
     setEnabled(false) 
   }
-
     
   return (
     <form id ="contact-form" className="contact-form col-sm-10 col-md-8" onSubmit={handleSubmit}>
@@ -48,7 +47,7 @@ const ContactMe = () => {
         <ReCAPTCHA sitekey={process.env.REACT_APP_KEY} onChange={changeSubmit}/>
         <br/>
         <button type="submit" className="btn btn-primary w-100" disabled={enabled} value="Submit" style={{ cursor: 'pointer' }}>
-                    Submit
+          Submit
         </button>
       </div>
 

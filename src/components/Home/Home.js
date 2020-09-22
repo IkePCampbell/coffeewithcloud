@@ -4,6 +4,7 @@ import { blogs } from '../../data/blogs'
 import profilepic from '../../img/profilepic.png'
 import { Helmet } from 'react-helmet'
 
+
 const Blogs = ({ blogs }) => {
   return blogs.slice(0,4).reverse().map((b, index) => {
     return (
@@ -43,7 +44,6 @@ export default function Home () {
             <h2>Exploring newest technologies, one cup at a time</h2>
           </header>
           <div align="center">
-                
             <p><br></br>Welcome to the blog! Grab a seat, your coffee is almost ready!<br></br>While you wait, check out <a href="http://www.github.com/ikepcampbell">my GitHub</a> for all content in this blog.</p>
             <a href="https://github.com/IkePCampbell"><img src={profilepic} className="profile" alt="profile"  /></a>
           </div>

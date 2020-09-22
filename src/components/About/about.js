@@ -19,7 +19,6 @@ export default function About(){
         <p style={{ paddingTop:'1%' }}class="container-content">I wanted to design CoffeeWithCloud after spending an incredible amount of hours in my local coffee shops studying, programming and of course drinking endless cups with Sam. Being able to work from home has given me a ton of creative freedom and ability to create this website, with the help of a few friends.</p>
         <p style={{ paddingTop:'1%' }}class="container-content">I'm hoping this blog will have a lot of wonderful entries, and we can grow a little community.</p>
         <p style={{ paddingTop:'1%' }}class="container-content">Thanks for stopping by, I hope I can help you get farther along in your journey! Grab a seat, let me get you a fresh cup :)</p>
-
       </div>
     </>
   )
