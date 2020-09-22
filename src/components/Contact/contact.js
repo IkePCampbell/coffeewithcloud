@@ -26,22 +26,22 @@ const ContactMe = () => {
     
   return (
     <form id ="contact-form" className="contact-form col-sm-10 col-md-8" onSubmit={handleSubmit}>
-      <div class="form-group">
+      <div className="form-group">
         <label for="name">Name</label>
-        <input type="text" class="form-control" placeholder="Name" id="name" aria-describedby="name" />
+        <input type="text" required className="form-control" placeholder="Name" id="name" aria-describedby="name" />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="email">Email address</label>
-        <input type="email" class="form-control" placeholder="Email" id="email" aria-describedby="emailHelp" />
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <input type="email" required className="form-control" placeholder="Email" id="email" aria-describedby="emailHelp" />
+        <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="subject">Subject</label>
-        <input type="text" class="form-control" placeholder="Subject" id="subject" aria-describedby="subject" />
+        <input type="text" required className="form-control" placeholder="Subject" id="subject" aria-describedby="subject" />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="message">Message</label>
-        <textarea type="text" rows="3" class="form-control" placeholder="Message" id="message" aria-describedby="subject" />
+        <textarea type="text" rows="3" required className="form-control" placeholder="Message" id="message" aria-describedby="subject" />
       </div>
       <div className = "submitSection col-sm-10 col-md-8">
         <ReCAPTCHA sitekey={process.env.REACT_APP_KEY} onChange={changeSubmit}/>
