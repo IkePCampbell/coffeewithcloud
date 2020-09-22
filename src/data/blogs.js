@@ -26,7 +26,7 @@ export const blogs = [
     id : '2',
     tags: 'Python, Programming',
     name: 'Basic Method Chaining Using Python',
-    date: '09-21-2020',
+    date: '09-22-2020',
     author: 'Isaac Campbell',
     teaser: 'Ever wanted to know what method chaining is? Here is a pracical example of it in Python!',
     source: blog3,
