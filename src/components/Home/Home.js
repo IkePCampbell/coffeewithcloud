@@ -9,15 +9,15 @@ const Blogs = ({blogs}) => {
         return (
             <div key={b.id} style={{marginBottom:'3ch',marginTop:'1ch'}}>
                 <Link to={`/blogs/${b.id}`}>
-                <div class="card w-75" style={{margin: '0 auto'}}>
-                <div class="card-body">
-                    <h5 class="card-title">{b.name}
-                        <div class="text-muted" style={{ fontSize:"0.65em" }}>
+                <div className="card col-md-12 col-lg-6" style={{margin: '0 auto'}}>
+                <div className="card-body">
+                    <h5 className="card-title">{b.name}
+                        <div className="text-muted" style={{ fontSize:"0.65em" }}>
                             {b.date}
                         </div>
                     </h5>
-                    <p class="card-text">{b.teaser}</p>
-                    <footer class="blockquote-footer">Tags: {b.tags}</footer>
+                    <p className="card-text">{b.teaser}</p>
+                    <footer className="blockquote-footer">Tags: {b.tags}</footer>
                 </div>
                 </div>
                 </Link>
@@ -49,7 +49,7 @@ export default function Home () {
             </div>
             <br/>
             <hr style={{ width: '75%', marginLeft: '12.5%' }}/>
-            <p style={{marginLeft: '12.5%'}}>Recent Posts: </p>
+            <p className='col-md-12 col-lg-6' style={{margin: '0 auto'}}>Recent Posts: </p>
             </div>
             <main>
                 <Blogs blogs={blogs} />
