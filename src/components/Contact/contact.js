@@ -27,20 +27,20 @@ const ContactMe = () => {
   return (
     <form id ="contact-form" className="contact-form col-sm-10 col-md-8" onSubmit={handleSubmit}>
       <div className="form-group">
-        <label for="name">Name</label>
+        <label htmlFor="name">Name</label>
         <input type="text" required className="form-control" placeholder="Name" id="name" aria-describedby="name" />
       </div>
       <div className="form-group">
-        <label for="email">Email address</label>
+        <label htmlFor="email">Email address</label>
         <input type="email" required className="form-control" placeholder="Email" id="email" aria-describedby="emailHelp" />
         <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
       <div className="form-group">
-        <label for="subject">Subject</label>
+        <label htmlFor="subject">Subject</label>
         <input type="text" required className="form-control" placeholder="Subject" id="subject" aria-describedby="subject" />
       </div>
       <div className="form-group">
-        <label for="message">Message</label>
+        <label htmlFor="message">Message</label>
         <textarea type="text" rows="3" required className="form-control" placeholder="Message" id="message" aria-describedby="subject" />
       </div>
       <div className = "submitSection col-sm-10 col-md-8">

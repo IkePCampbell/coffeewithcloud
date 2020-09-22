@@ -28,7 +28,7 @@ const SearchBlogs = props => {
       <div className="filterinput">
         <div className="input-group input-group-lg" style={{ width: '75%', marginLeft: '12.5%' }}>
           <span className="input-group-btn">
-            <label for="search" className="btn-lg">Search title and tags for:</label>
+            <label htmlFor="search" className="btn-lg">Search title and tags for:</label>
           </span>
           <input type="text" className="form-control input-lg" placeholder="Search" id="search" aria-describedby="search" onChange={e => searchByName(e.target.value.toLowerCase())} 
             onKeyUp={e => searchByName(e.target.value.toLowerCase())} />
