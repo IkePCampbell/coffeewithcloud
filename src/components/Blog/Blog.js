@@ -23,12 +23,13 @@ export default function Blogs (props) {
           </Helmet> 
           <p>Oh no! Looks like you got lost! There's nothing here :/</p>
         </div> :                            
-        <div className="blogPost">
+        <div className="col-md-12">
           <Helmet>
             <title>{blogs[id].name}</title>
           </Helmet>
           <h1>{blogs[id].name}</h1>
-          <h4>By: {blogs[id].author} &nbsp;&nbsp;&nbsp; {blogs[id].date}</h4>
+          <h4>By: {blogs[id].author}</h4>
+          <p>{blogs[id].date}</p>
           <div className = "markdownContent">
             <ReactMarkdown source = {markdown} escapeHtml={false} />
           </div>
