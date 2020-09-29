@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d93adafc4730ae127fb2d91a2391880",
+    "revision": "1960e6be3382e752bd21246d3e6e02f8",
     "url": "/coffeewithcloud/index.html"
   },
   {
-    "revision": "3c99f84d14ff36116b3a",
-    "url": "/coffeewithcloud/static/css/main.afa8ebef.chunk.css"
+    "revision": "000ecff3b233801ae0c2",
+    "url": "/coffeewithcloud/static/css/main.91fd29fc.chunk.css"
   },
   {
-    "revision": "404151a58143d6dbb1c4",
-    "url": "/coffeewithcloud/static/js/2.4c1db088.chunk.js"
+    "revision": "67b3a6b598f144981429",
+    "url": "/coffeewithcloud/static/js/2.5f0deeaf.chunk.js"
   },
   {
     "revision": "40046c021c0025c71b5ec67323b92a85",
-    "url": "/coffeewithcloud/static/js/2.4c1db088.chunk.js.LICENSE.txt"
+    "url": "/coffeewithcloud/static/js/2.5f0deeaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c99f84d14ff36116b3a",
-    "url": "/coffeewithcloud/static/js/main.5971b622.chunk.js"
+    "revision": "000ecff3b233801ae0c2",
+    "url": "/coffeewithcloud/static/js/main.f07d8e88.chunk.js"
   },
   {
     "revision": "7f183b500951c01699bd",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1c96a0e09f9398ece4b2934b95a8f62",
     "url": "/coffeewithcloud/static/media/blog3.a1c96a0e.md"
+  },
+  {
+    "revision": "c00e4cf3704e0ebe4d276b8dc457bbb8",
+    "url": "/coffeewithcloud/static/media/blog4.c00e4cf3.md"
   }
 ]);
