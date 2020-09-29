@@ -36,12 +36,12 @@ export const blogs = [
   {
     id : '3',
     tags: 'Python, Game Development, Neural Network',
-    name: 'Neural Networks and Othello',
+    name: 'Neural Networks and Othello - Part One',
     date: '09-28-2020',
     author: 'Isaac Campbell',
-    teaser: 'This project took me over a year to finally complete. Want to see how a Neural Network will make choices in Catan.',
+    teaser: 'Welcome to this mini series on a project that took me over a year to finally complete. Click to see how a Neural Network will make choices in the board game Othello.',
     source: blog4,
-    ending:''
+    ending:'And that\'s it for this Part 1 on Neural Networks and Othello. I won\'t show you the rest of the helper functions in board.py file (such as isNotFull(), flip()). This is only because we are out of time and space right now. I hope you enjoyed this Part 1, it was really good groundwork for us to get our minds thinking about the board structure and rules of the game. In the next part I will go over the Game structure, and the end of that we should all be ready for the neural network section!'
   }
 
 
